@@ -1,0 +1,12 @@
+<!-- must contain model, country, company, price, year-->
+<!-- needs 15 cars-->
+
+<classic-cars xmlns:cl="classic-company-cars">
+<cl:car>
+<cl:model> </cl:model>
+<cl:country> </cl:country>
+<cl:company> </cl:company>
+<cl:price> </cl:price>
+<cl:year> </cl:year>
+</cl:car>
+</cl:classic-cars>

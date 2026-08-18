@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "content";
+  grid-gap: 2em;
+  max-width: 960px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Roboto", system-ui;
+  line-height: 1.6rem;
+  gap: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  background-color: #ab2330;
+  padding: 1rem;
+  color: white;
+}
+
+main {
+  text-align: center;
+}
+footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #ab2330;
+  color: white;
+}

@@ -1,4 +1,5 @@
-<xs:schema xmlns:xs="classic-company-cars">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema.xsd" xmlns:cl="classic-company-cars">
 <xs:element name="vehicle">
         <xs:complexType>
             <xs:sequence>

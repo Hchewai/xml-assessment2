@@ -22,6 +22,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #F2F0EF;
 }
 
 header {
@@ -33,6 +34,32 @@ header {
 
 main {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 
+  "main-heading main-heading main-heading main-heading"
+  "vehicle vehicle vehicle vehicle";
+}
+#main-heading{
+  display: grid;
+  grid-area: main-heading;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+article{
+  grid-area: vehicle;
+    max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+ 
+  
 }
 footer {
   margin-top: auto;

@@ -1,5 +1,5 @@
 <xs:schema xmlns:xs="classic-company-cars">
-<xs:element name="cars">
+<xs:element name="vehicle">
         <xs:complexType>
             <xs:sequence>
 

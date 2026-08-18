@@ -1,127 +1,125 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- must contain model, country, company, price, year-->
 <!-- needs 15 cars-->
-
-<classic-cars xmlns:cl="classic-company-cars" xsi:noNamespaceSchemaLocation="cars-v3.xsd">
-<!--1st from Honda-->
-<vehicle>
-<model>Integra</model>
-<country>Japan</country>
-<company>Honda</company>
-<price>5000</price>
-<year>1986</year>
-</vehicle>
-<!--2nd-->
-<vehicle>
-<model>ADX</model>
-<country>Japan</country>
-<company>Honda</company>
-<price>8000</price>
-<year>2025</year>
-</vehicle>
-<!--3rd-->
-<vehicle>
-<model>MDX</model>
-<country>Japan</country>
-<company>Honda</company>
-<price>6000</price>
-<year>2000</year>
-</vehicle>
-<!--4th-->
-<vehicle>
-<model>MDX</model>
-<country>Japan</country>
-<company>Honda</company>
-<price>6000</price>
-<year>2000</year>
-</vehicle>
-
-<!--5th Alfa Romeo-->
-<vehicle>
-<model>Alfa Romeo MiTo</model>
-<country>Italy</country>
-<company>FCA Italy</company>
-<price>9000</price>
-<year>2008-2020</year>
-</vehicle>
-<!--6th-->
-<vehicle>
-<model>Alfa Romeo Kamal</model>
-<country>Italy</country>
-<company>FCA Italy</company>
-<price>3000</price>
-<year>2003</year>
-</vehicle>
-<!--7th-->
-<vehicle>
-<model>Alfa Romeo BAT</model>
-<country>Italy</country>
-<company>FCA Italy</company>
-<price>12000</price>
-<year>1953</year>
-</vehicle>
-<!--8th-->
-<vehicle>
-<model>Alfa Romeo Tonale</model>
-<country>Italy</country>
-<company>FCA Italy</company>
-<price>15000</price>
-<year>2022</year>
-</vehicle>
-<!--9th Mercedes-->
-<vehicle>
-<model>A-Class C-segment/subcompact executive hatchback.</model>
-<country>Germany</country>
-<company>Mercedes-Benz</company>
-<price>20000</price>
-<year>1997</year>
-</vehicle>
-<!-- 10th-->
-<vehicle>
-<model>A-Class C-Segment Subcompact Executive Sedan</model>
-<country>Germany</country>
-<company>Mercedes-Benz</company>
-<price>23000</price>
-<year>2018</year>
-</vehicle>
-<!-- 11th -->
-<vehicle>
-<model>CLA C-segment/subcompact executive fastback sedan. Battery electric version available.</model>
-<country>Germany</country>
-<company>Mercedes-Benz</company>
-<price>25000</price>
-<year>2018</year>
-</vehicle>
-<!--12th-->
-<vehicle>
-<model>C-Class D-segment/compact executive sedan.</model>
-<country>Germany</country>
-<company>Mercedes-Benz</company>
-<price>27000</price>
-<year>1993</year>
-</vehicle>
-<!--13th Toyota-->
-<vehicle>
-<model>Avalon</model>
-<country>Japan</country>
-<company>Toyota</company>
-<price>15000</price>
-<year>1994</year>
-</vehicle>
-<!--14th-->
-<vehicle>
-<model>bZ3</model>
-<country>Japan</country>
-<company>Toyota</company>
-<price>17000</price>
-<year>2022</year>
-</vehicle>
-<!--15th-->
-<vehicle>
-<model>Camry</model>
-<country>Japan</country>
-<company>Toyota</company>
-<price>2000</price>
-<year>1982</year>
-</vehicle>
+<classic-cars xmlns:xsi="https://www.w3.org/2001/XMLSchema.xsd" xsi:noNamespaceSchemaLocation="xml-car-schema.xsd" xmlns:n1="http://www.w3.org/2001/XMLSchema-instance" n1:noNamespaceSchemaLocation="file:///C:/laragon/www/XML-unit/xml-assessment2/resources/xml-car-schema.xsd">
+	<!--1st from Honda-->
+	<vehicle>
+		<model>Integra</model>
+		<country>Japan</country>
+		<company>Honda</company>
+		<price>5000</price>
+		<year>1986</year>
+	</vehicle>
+	<!--2nd-->
+	<vehicle>
+		<model>ADX</model>
+		<country>Japan</country>
+		<company>Honda</company>
+		<price>8000</price>
+		<year>2025</year>
+	</vehicle>
+	<!--3rd-->
+	<vehicle>
+		<model>MDX</model>
+		<country>Japan</country>
+		<company>Honda</company>
+		<price>6000</price>
+		<year>2000</year>
+	</vehicle>
+	<!--4th-->
+	<vehicle>
+		<model>MDX</model>
+		<country>Japan</country>
+		<company>Honda</company>
+		<price>6000</price>
+		<year>2000</year>
+	</vehicle>
+	<!--5th Alfa Romeo-->
+	<vehicle>
+		<model>Alfa Romeo MiTo</model>
+		<country>Italy</country>
+		<company>FCA Italy</company>
+		<price>9000</price>
+		<year>2008-2020</year>
+	</vehicle>
+	<!--6th-->
+	<vehicle>
+		<model>Alfa Romeo Kamal</model>
+		<country>Italy</country>
+		<company>FCA Italy</company>
+		<price>3000</price>
+		<year>2003</year>
+	</vehicle>
+	<!--7th-->
+	<vehicle>
+		<model>Alfa Romeo BAT</model>
+		<country>Italy</country>
+		<company>FCA Italy</company>
+		<price>12000</price>
+		<year>1953</year>
+	</vehicle>
+	<!--8th-->
+	<vehicle>
+		<model>Alfa Romeo Tonale</model>
+		<country>Italy</country>
+		<company>FCA Italy</company>
+		<price>15000</price>
+		<year>2022</year>
+	</vehicle>
+	<!--9th Mercedes-->
+	<vehicle>
+		<model>A-Class C-segment/subcompact executive hatchback.</model>
+		<country>Germany</country>
+		<company>Mercedes-Benz</company>
+		<price>20000</price>
+		<year>1997</year>
+	</vehicle>
+	<!-- 10th-->
+	<vehicle>
+		<model>A-Class C-Segment Subcompact Executive Sedan</model>
+		<country>Germany</country>
+		<company>Mercedes-Benz</company>
+		<price>23000</price>
+		<year>2018</year>
+	</vehicle>
+	<!-- 11th -->
+	<vehicle>
+		<model>CLA C-segment/subcompact executive fastback sedan. Battery electric version available.</model>
+		<country>Germany</country>
+		<company>Mercedes-Benz</company>
+		<price>25000</price>
+		<year>2018</year>
+	</vehicle>
+	<!--12th-->
+	<vehicle>
+		<model>C-Class D-segment/compact executive sedan.</model>
+		<country>Germany</country>
+		<company>Mercedes-Benz</company>
+		<price>27000</price>
+		<year>1993</year>
+	</vehicle>
+	<!--13th Toyota-->
+	<vehicle>
+		<model>Avalon</model>
+		<country>Japan</country>
+		<company>Toyota</company>
+		<price>15000</price>
+		<year>1994</year>
+	</vehicle>
+	<!--14th-->
+	<vehicle>
+		<model>bZ3</model>
+		<country>Japan</country>
+		<company>Toyota</company>
+		<price>17000</price>
+		<year>2022</year>
+	</vehicle>
+	<!--15th-->
+	<vehicle>
+		<model>Camry</model>
+		<country>Japan</country>
+		<company>Toyota</company>
+		<price>2000</price>
+		<year>1982</year>
+	</vehicle>
 </classic-cars>

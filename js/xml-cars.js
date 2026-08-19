@@ -1,10 +1,5 @@
-const vehicleArticle = document.getElementById("vehicle");
+const vehicleList = document.getElementById("vehicle-list");
 const xmlButton = document.getElementById("loadXML");
-const modelDisplay = document.getElementById("model");
-const countryDisplay = document.getElementById("country");
-const companyDisplay = document.getElementById("company");
-const priceDisplay = document.getElementById("price");
-const yearDisplay = document.getElementById("year");
 
 // function loadModel() {
 //   xmlButton.addEventListener("click", () => {
@@ -14,22 +9,39 @@ const yearDisplay = document.getElementById("year");
 //   });
 // }
 // Some javascript practice
-function loadModel() {
+// im gonna turn this empty message function into a conditional in my xml function because 2 functions on one event listener is gonna mess it up
+function emptyMessage() {
   xmlButton.addEventListener("click", () => {
-    if (modelDisplay.textContent === "") {
-      let newModelDisplay = (document.getElementById("model").textContent =
-        "Sorry we dont have anything to display at the moment, please check back later!");
+    if (vehicleList.textContent === "") {
+      let apology = (document.getElementById("vehicle-list").textContent =
+        "sorry we dont have anything to display, please come back later");
       const failImage = document.createElement("img");
       failImage.src = "/images/broken_heart.png";
       failImage.height = 100;
       failImage.width = 100;
       failImage.style.margin = "0 auto";
-      const article = document.querySelector("article");
-      article.append(failImage);
+      const container = document.getElementById("vehicle-catalogue");
+      container.append(failImage);
     }
   });
 }
 
-loadModel();
+emptyMessage();
 
-function xmlRequest() {}
+// function xmlRequest() {}
+
+// get javascript to retrieve my xml data
+
+// then get javascript to create articles for each individual xml vehicle tag
+
+// let newVehicleDisplay = (document.getElementById(
+//   "vehicle-list",
+// ).textContent =
+//   "Sorry we dont have anything to display at the moment, please come back later!");
+// const failImage = document.createElement("img");
+// failImage.src = "/images/broken_heart.png";
+// failImage.height = 100;
+// failImage.width = 100;
+// failImage.style.margin = "0 auto";
+// const vehicleList = document.getElementById("vehicle-list");
+// div.append(failImage);

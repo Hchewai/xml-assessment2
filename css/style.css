@@ -7,14 +7,6 @@ html {
   min-height: 100vh;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "content";
-  grid-gap: 2em;
-  max-width: 960px;
-  margin: 0 auto;
-}
 body {
   font-family: "Roboto", system-ui;
   line-height: 1.6rem;
@@ -32,25 +24,30 @@ header {
   color: white;
 }
 
-main {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas:
-    "main-heading main-heading main-heading main-heading"
-    "vehicle vehicle vehicle vehicle";
-}
 #main-heading {
-  display: grid;
   grid-area: main-heading;
   text-align: center;
   font-size: 2rem;
   padding: 1rem;
   margin: 1rem;
 }
+#vehicle-catalogue {
+  display: grid;
+  grid-area: vehicle-catalogue;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "main-heading main-heading main-heading main-heading"
+    "loadXML loadXML loadXML loadXML"
+    "vehicle-list vehicle-list vehicle-list vehicle-list";
+}
+
+#vehicle-list {
+  display: grid;
+  grid-area: vehicle-list;
+  grid-template-columns: repeat(3, 1fr);
+}
 
 article {
-  grid-area: vehicle;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
@@ -67,11 +64,14 @@ footer {
 }
 
 #loadXML {
+  grid-area: loadXML;
   background-color: #ab2330;
   border-radius: 4px;
   color: white;
   padding: 12px;
   font-size: 1em;
+  margin: 0 auto 1em;
+  max-width: 600px;
 }
 
 #loadXML:hover {

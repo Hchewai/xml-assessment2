@@ -10,6 +10,10 @@ const xmlButton = document.getElementById("loadXML");
 // }
 // Some javascript practice
 // im gonna turn this empty message function into a conditional in my xml function because 2 functions on one event listener is gonna mess it up
+// if there are vehicles display them
+// else
+// display empty message
+//i might be kind of goated
 function emptyMessage() {
   xmlButton.addEventListener("click", () => {
     if (vehicleList.textContent === "") {

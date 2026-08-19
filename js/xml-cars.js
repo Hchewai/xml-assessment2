@@ -13,7 +13,8 @@ const xmlButton = document.getElementById("loadXML");
 // if there are vehicles display them
 // else
 // display empty message
-//i might be kind of goated
+//remember to not check text.content === "", check if xml is empty
+// i might be goated
 function emptyMessage() {
   xmlButton.addEventListener("click", () => {
     if (vehicleList.textContent === "") {

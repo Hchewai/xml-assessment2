@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- must contain model, country, company, price, year-->
 <!-- needs 15 cars-->
-<classic-cars xmlns:xsi="https://www.w3.org/2001/XMLSchema.xsd" xsi:noNamespaceSchemaLocation="xml-car-schema.xsd" xmlns:n1="http://www.w3.org/2001/XMLSchema-instance" n1:noNamespaceSchemaLocation="file:///C:/laragon/www/XML-unit/xml-assessment2/resources/xml-car-schema.xsd">
-	<!--1st from Honda-->
+<classic-cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xml-car-schema.xsd">	
+<!--1st from Honda-->
 	<vehicle>
 		<model>Integra</model>
 		<country>Japan</country>
@@ -40,7 +40,7 @@
 		<country>Italy</country>
 		<company>FCA Italy</company>
 		<price>9000</price>
-		<year>2008-2020</year>
+		<year>2008</year>
 	</vehicle>
 	<!--6th-->
 	<vehicle>
@@ -68,7 +68,7 @@
 	</vehicle>
 	<!--9th Mercedes-->
 	<vehicle>
-		<model>A-Class C-segment/subcompact executive hatchback.</model>
+		<model>A-Class C-segment/subcompact executive hatchback</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
 		<price>20000</price>
@@ -84,7 +84,7 @@
 	</vehicle>
 	<!-- 11th -->
 	<vehicle>
-		<model>CLA C-segment/subcompact executive fastback sedan. Battery electric version available.</model>
+		<model>CLA C-segment/subcompact executive fastback sedan</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
 		<price>25000</price>
@@ -92,7 +92,7 @@
 	</vehicle>
 	<!--12th-->
 	<vehicle>
-		<model>C-Class D-segment/compact executive sedan.</model>
+		<model>C-Class D-segment/compact executive sedan</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
 		<price>27000</price>

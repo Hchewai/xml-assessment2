@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #F2F0EF;
+  background-color: #f2f0ef;
 }
 
 header {
@@ -36,11 +36,11 @@ main {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: 
-  "main-heading main-heading main-heading main-heading"
-  "vehicle vehicle vehicle vehicle";
+  grid-template-areas:
+    "main-heading main-heading main-heading main-heading"
+    "vehicle vehicle vehicle vehicle";
 }
-#main-heading{
+#main-heading {
   display: grid;
   grid-area: main-heading;
   text-align: center;
@@ -49,21 +49,32 @@ main {
   margin: 1rem;
 }
 
-article{
+article {
   grid-area: vehicle;
-    max-width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
- 
-  
 }
 footer {
   margin-top: auto;
   text-align: center;
   background-color: #ab2330;
   color: white;
+}
+
+#loadXML {
+  background-color: #ab2330;
+  border-radius: 4px;
+  color: white;
+  padding: 12px;
+  font-size: 1em;
+}
+
+#loadXML:hover {
+  border-color: blue;
+  transform: scale(1.2);
 }

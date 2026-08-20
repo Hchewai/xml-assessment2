@@ -1,121 +1,151 @@
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- must contain model, country, company, price, year-->
-<!-- needs 15 cars-->
+<!-- must contain name, model, country, company, price, year -->
+<!-- needs 15 cars -->
 <classic-cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./resources/xml-car-schema.xsd">
-	<!--1st from Honda-->
+	<!-- 1st from Honda -->
 	<vehicle>
+		<name>Honda Integra</name>
 		<model>Integra</model>
 		<country>Japan</country>
 		<company>Honda</company>
 		<price>$5000</price>
 		<year>1986</year>
 	</vehicle>
-	<!--2nd-->
+
+	<!-- 2nd -->
 	<vehicle>
+		<name>Honda ADX</name>
 		<model>ADX</model>
 		<country>Japan</country>
 		<company>Honda</company>
 		<price>$8000</price>
 		<year>2025</year>
 	</vehicle>
-	<!--3rd-->
+
+	<!-- 3rd -->
 	<vehicle>
+		<name>Honda MDX</name>
 		<model>MDX</model>
 		<country>Japan</country>
 		<company>Honda</company>
 		<price>$6000</price>
 		<year>2000</year>
 	</vehicle>
-	<!--4th-->
+
+	<!-- 4th -->
 	<vehicle>
+		<name>Honda MDX Classic</name>
 		<model>MDX</model>
 		<country>Japan</country>
 		<company>Honda</company>
 		<price>$6000</price>
 		<year>2000</year>
 	</vehicle>
-	<!--5th Alfa Romeo-->
+
+	<!-- 5th Alfa Romeo -->
 	<vehicle>
+		<name>Alfa Romeo MiTo</name>
 		<model>Alfa Romeo MiTo</model>
 		<country>Italy</country>
 		<company>FCA Italy</company>
 		<price>$9000</price>
 		<year>2008</year>
 	</vehicle>
-	<!--6th-->
+
+	<!-- 6th -->
 	<vehicle>
+		<name>Alfa Romeo Kamal</name>
 		<model>Alfa Romeo Kamal</model>
 		<country>Italy</country>
 		<company>FCA Italy</company>
 		<price>$3000</price>
 		<year>2003</year>
 	</vehicle>
-	<!--7th-->
+
+	<!-- 7th -->
 	<vehicle>
+		<name>Alfa Romeo BAT</name>
 		<model>Alfa Romeo BAT</model>
 		<country>Italy</country>
 		<company>FCA Italy</company>
 		<price>$12000</price>
 		<year>1953</year>
 	</vehicle>
-	<!--8th-->
+
+	<!-- 8th -->
 	<vehicle>
+		<name>Alfa Romeo Tonale</name>
 		<model>Alfa Romeo Tonale</model>
 		<country>Italy</country>
 		<company>FCA Italy</company>
 		<price>$15000</price>
 		<year>2022</year>
 	</vehicle>
-	<!--9th Mercedes-->
+
+	<!-- 9th Mercedes -->
 	<vehicle>
+		<name>Mercedes-Benz A-Class Hatchback</name>
 		<model>A-Class C-segment/subcompact executive hatchback</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
 		<price>$20000</price>
 		<year>1997</year>
 	</vehicle>
-	<!-- 10th-->
+
+	<!-- 10th -->
 	<vehicle>
+		<name>Mercedes-Benz A-Class Sedan</name>
 		<model>A-Class C-Segment Subcompact Executive Sedan</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
 		<price>$23000</price>
 		<year>2018</year>
 	</vehicle>
+
 	<!-- 11th -->
 	<vehicle>
+		<name>Mercedes-Benz CLA</name>
 		<model>CLA C-segment/subcompact executive fastback sedan</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
 		<price>$25000</price>
 		<year>2018</year>
 	</vehicle>
-	<!--12th-->
+
+	<!-- 12th -->
 	<vehicle>
+		<name>Mercedes-Benz C-Class</name>
 		<model>C-Class D-segment/compact executive sedan</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
 		<price>$27000</price>
 		<year>1993</year>
 	</vehicle>
-	<!--13th Toyota-->
+
+	<!-- 13th Toyota -->
 	<vehicle>
+		<name>Toyota Avalon</name>
 		<model>Avalon</model>
 		<country>Japan</country>
 		<company>Toyota</company>
 		<price>$15000</price>
 		<year>1994</year>
 	</vehicle>
-	<!--14th-->
+
+	<!-- 14th -->
 	<vehicle>
+		<name>Toyota bZ3</name>
 		<model>bZ3</model>
 		<country>Japan</country>
 		<company>Toyota</company>
 		<price>$17000</price>
 		<year>2022</year>
 	</vehicle>
-	<!--15th-->
+
+	<!-- 15th -->
 	<vehicle>
+		<name>Toyota Camry</name>
 		<model>Camry</model>
 		<country>Japan</country>
 		<company>Toyota</company>
@@ -123,3 +153,4 @@
 		<year>1982</year>
 	</vehicle>
 </classic-cars>
+```

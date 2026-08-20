@@ -1,21 +1,8 @@
 const vehicleList = document.getElementById("vehicle-list");
 const xmlButton = document.getElementById("loadXML");
 
-// function loadModel() {
-//   xmlButton.addEventListener("click", () => {
-//     let newModelDisplay = (document.getElementById("model").textContent =
-//       "test");
-//     console.log(newModelDisplay);
-//   });
-// }
-// Some javascript practice
-// im gonna turn this empty message function into a conditional in my xml function because 2 functions on one event listener is gonna mess it up
-// if there are vehicles display them
-// else
-// display empty message
-//remember to not check text.content === "", check if xml is empty
-// i might be goated
-
+//pseudo-code
+//when xmlhttp request is rendered, apply the classListName of article to XML content to give the html output the correct styling
 function loadXMLContent() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
@@ -32,6 +19,9 @@ function init() {
 }
 
 loadXMLContent();
+
+// Some javascript practice
+
 // function emptyMessage() {
 //   xmlButton.addEventListener("click", () => {
 //     if (vehicleList.textContent === "") {

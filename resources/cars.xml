@@ -7,7 +7,7 @@
 		<model>Integra</model>
 		<country>Japan</country>
 		<company>Honda</company>
-		<price>5000</price>
+		<price>$5000</price>
 		<year>1986</year>
 	</vehicle>
 	<!--2nd-->
@@ -15,7 +15,7 @@
 		<model>ADX</model>
 		<country>Japan</country>
 		<company>Honda</company>
-		<price>8000</price>
+		<price>$8000</price>
 		<year>2025</year>
 	</vehicle>
 	<!--3rd-->
@@ -23,7 +23,7 @@
 		<model>MDX</model>
 		<country>Japan</country>
 		<company>Honda</company>
-		<price>6000</price>
+		<price>$6000</price>
 		<year>2000</year>
 	</vehicle>
 	<!--4th-->
@@ -31,7 +31,7 @@
 		<model>MDX</model>
 		<country>Japan</country>
 		<company>Honda</company>
-		<price>6000</price>
+		<price>$6000</price>
 		<year>2000</year>
 	</vehicle>
 	<!--5th Alfa Romeo-->
@@ -39,7 +39,7 @@
 		<model>Alfa Romeo MiTo</model>
 		<country>Italy</country>
 		<company>FCA Italy</company>
-		<price>9000</price>
+		<price>$9000</price>
 		<year>2008</year>
 	</vehicle>
 	<!--6th-->
@@ -47,7 +47,7 @@
 		<model>Alfa Romeo Kamal</model>
 		<country>Italy</country>
 		<company>FCA Italy</company>
-		<price>3000</price>
+		<price>$3000</price>
 		<year>2003</year>
 	</vehicle>
 	<!--7th-->
@@ -55,7 +55,7 @@
 		<model>Alfa Romeo BAT</model>
 		<country>Italy</country>
 		<company>FCA Italy</company>
-		<price>12000</price>
+		<price>$12000</price>
 		<year>1953</year>
 	</vehicle>
 	<!--8th-->
@@ -63,7 +63,7 @@
 		<model>Alfa Romeo Tonale</model>
 		<country>Italy</country>
 		<company>FCA Italy</company>
-		<price>15000</price>
+		<price>$15000</price>
 		<year>2022</year>
 	</vehicle>
 	<!--9th Mercedes-->
@@ -71,7 +71,7 @@
 		<model>A-Class C-segment/subcompact executive hatchback</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
-		<price>20000</price>
+		<price>$20000</price>
 		<year>1997</year>
 	</vehicle>
 	<!-- 10th-->
@@ -79,7 +79,7 @@
 		<model>A-Class C-Segment Subcompact Executive Sedan</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
-		<price>23000</price>
+		<price>$23000</price>
 		<year>2018</year>
 	</vehicle>
 	<!-- 11th -->
@@ -87,7 +87,7 @@
 		<model>CLA C-segment/subcompact executive fastback sedan</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
-		<price>25000</price>
+		<price>$25000</price>
 		<year>2018</year>
 	</vehicle>
 	<!--12th-->
@@ -95,7 +95,7 @@
 		<model>C-Class D-segment/compact executive sedan</model>
 		<country>Germany</country>
 		<company>Mercedes-Benz</company>
-		<price>27000</price>
+		<price>$27000</price>
 		<year>1993</year>
 	</vehicle>
 	<!--13th Toyota-->
@@ -103,7 +103,7 @@
 		<model>Avalon</model>
 		<country>Japan</country>
 		<company>Toyota</company>
-		<price>15000</price>
+		<price>$15000</price>
 		<year>1994</year>
 	</vehicle>
 	<!--14th-->
@@ -111,7 +111,7 @@
 		<model>bZ3</model>
 		<country>Japan</country>
 		<company>Toyota</company>
-		<price>17000</price>
+		<price>$17000</price>
 		<year>2022</year>
 	</vehicle>
 	<!--15th-->
@@ -119,7 +119,7 @@
 		<model>Camry</model>
 		<country>Japan</country>
 		<company>Toyota</company>
-		<price>2000</price>
+		<price>$2000</price>
 		<year>1982</year>
 	</vehicle>
 </classic-cars>

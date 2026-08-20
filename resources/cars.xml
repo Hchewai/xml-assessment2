@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- must contain model, country, company, price, year-->
 <!-- needs 15 cars-->
-<classic-cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/laragon/www/XML-unit/xml-assessment2/resources/xml-car-schema.xsd">
+<classic-cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./resources/xml-car-schema.xsd">
 	<!--1st from Honda-->
 	<vehicle>
 		<model>Integra</model>

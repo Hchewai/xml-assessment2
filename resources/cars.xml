@@ -1,8 +1,10 @@
-```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- must contain name, model, country, company, price, year -->
 <!-- needs 15 cars -->
-<classic-cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./resources/xml-car-schema.xsd">
+<classic-cars
+    xmlns="https://example.com/classic-cars"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://example.com/classic-cars ./resources/xml-car-schema.xsd">	
 	<!-- 1st from Honda -->
 	<vehicle>
 		<name>Honda Integra</name>
@@ -12,7 +14,6 @@
 		<price>$5000</price>
 		<year>1986</year>
 	</vehicle>
-
 	<!-- 2nd -->
 	<vehicle>
 		<name>Honda ADX</name>
@@ -22,7 +23,6 @@
 		<price>$8000</price>
 		<year>2025</year>
 	</vehicle>
-
 	<!-- 3rd -->
 	<vehicle>
 		<name>Honda MDX</name>
@@ -32,7 +32,6 @@
 		<price>$6000</price>
 		<year>2000</year>
 	</vehicle>
-
 	<!-- 4th -->
 	<vehicle>
 		<name>Honda MDX Classic</name>
@@ -42,7 +41,6 @@
 		<price>$6000</price>
 		<year>2000</year>
 	</vehicle>
-
 	<!-- 5th Alfa Romeo -->
 	<vehicle>
 		<name>Alfa Romeo MiTo</name>
@@ -52,7 +50,6 @@
 		<price>$9000</price>
 		<year>2008</year>
 	</vehicle>
-
 	<!-- 6th -->
 	<vehicle>
 		<name>Alfa Romeo Kamal</name>
@@ -62,7 +59,6 @@
 		<price>$3000</price>
 		<year>2003</year>
 	</vehicle>
-
 	<!-- 7th -->
 	<vehicle>
 		<name>Alfa Romeo BAT</name>
@@ -72,7 +68,6 @@
 		<price>$12000</price>
 		<year>1953</year>
 	</vehicle>
-
 	<!-- 8th -->
 	<vehicle>
 		<name>Alfa Romeo Tonale</name>
@@ -82,7 +77,6 @@
 		<price>$15000</price>
 		<year>2022</year>
 	</vehicle>
-
 	<!-- 9th Mercedes -->
 	<vehicle>
 		<name>Mercedes-Benz A-Class Hatchback</name>
@@ -92,7 +86,6 @@
 		<price>$20000</price>
 		<year>1997</year>
 	</vehicle>
-
 	<!-- 10th -->
 	<vehicle>
 		<name>Mercedes-Benz A-Class Sedan</name>
@@ -102,7 +95,6 @@
 		<price>$23000</price>
 		<year>2018</year>
 	</vehicle>
-
 	<!-- 11th -->
 	<vehicle>
 		<name>Mercedes-Benz CLA</name>
@@ -112,7 +104,6 @@
 		<price>$25000</price>
 		<year>2018</year>
 	</vehicle>
-
 	<!-- 12th -->
 	<vehicle>
 		<name>Mercedes-Benz C-Class</name>
@@ -122,7 +113,6 @@
 		<price>$27000</price>
 		<year>1993</year>
 	</vehicle>
-
 	<!-- 13th Toyota -->
 	<vehicle>
 		<name>Toyota Avalon</name>
@@ -132,7 +122,6 @@
 		<price>$15000</price>
 		<year>1994</year>
 	</vehicle>
-
 	<!-- 14th -->
 	<vehicle>
 		<name>Toyota bZ3</name>
@@ -142,7 +131,6 @@
 		<price>$17000</price>
 		<year>2022</year>
 	</vehicle>
-
 	<!-- 15th -->
 	<vehicle>
 		<name>Toyota Camry</name>
@@ -153,4 +141,3 @@
 		<year>1982</year>
 	</vehicle>
 </classic-cars>
-```

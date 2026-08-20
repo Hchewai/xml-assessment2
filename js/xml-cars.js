@@ -1,8 +1,6 @@
 const vehicleList = document.getElementById("vehicle-list");
 const xmlButton = document.getElementById("loadXML");
 
-//pseudo-code
-//when xmlhttp request is rendered, apply the classListName of article to XML content to give the html output the correct styling
 function loadXMLContent() {
   "use strict";
   var xhttp = new XMLHttpRequest();

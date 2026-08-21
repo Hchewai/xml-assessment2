@@ -5,6 +5,7 @@ function loadXMLContent() {
   "use strict";
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
+    "use strict";
     if (this.readyState == 4 && this.status === 200) {
       document.getElementById("vehicle-list").innerHTML =
         `<article>${this.responseText}</article>`;

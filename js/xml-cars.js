@@ -1,6 +1,7 @@
 //Formatting XML Content (used text content instead of w3schools child nodes for readability)
 //https://www.w3schools.com/xml/tryit.asp?filename=try_dom_xmlhttprequest_xml
 function formatXML(xml) {
+  "use strict";
   let x, i, xmlDoc, table;
   xmlDoc = xml.responseXML;
   table =

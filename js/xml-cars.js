@@ -47,7 +47,7 @@ function loadXMLContent() {
       }
     }
   };
-  xhttp.open("GET", "resources/caraaas.xml", true);
+  xhttp.open("GET", "resources/cars.xml", true);
   xhttp.send();
 }
 

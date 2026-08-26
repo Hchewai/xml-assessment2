@@ -34,8 +34,8 @@ function loadXMLContent() {
       if (this.status === 200) {
         formatXML(this);
       } else {
-        let apology = (document.getElementById("vehicle-list").textContent =
-          "sorry we dont have anything to display, please come back later");
+        document.getElementById("vehicle-list").textContent =
+          "sorry we dont have anything to display, please come back later";
         const failImage = document.createElement("img");
         failImage.src = "/images/error-image.png";
         failImage.height = 100;
@@ -46,7 +46,7 @@ function loadXMLContent() {
       }
     }
   };
-  xhttp.open("GET", "resources/cars.xml", true);
+  xhttp.open("GET", "resources/caraaas.xml", true);
   xhttp.send();
 }
 
